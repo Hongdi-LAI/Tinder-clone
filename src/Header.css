@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* line after the header light grey */
+    border-bottom: 1px solid #f9f9f9; 
+    /* align everything even with padding */
+    align-items: center; 
+    
+    /* flex-direction: column; */ /* Starting with top item to bottom item */
+    /* flex-direction: column-reverse; */ /* Starting with bottom item to top item */
+    /* flex-direction: row; */ /* Starting from left to right */
+    /* flex-direction: row-reverse; */ /* Starting from right to left */
+    /* justify-content: center; */ /* Placing items in the center */
+    /* justify-content: flex-start; */ /* Align everything to the start on the left */
+    /* justify-content: flex-end; */ /* Align everything to the end of the container */
+    /* justify-content: space-around; */ /* Displays the flex items with space before, between, and after the lines */
+    /* justify-content: space-between; */ /* Displays the flex items with space between the lines */
+}
+
+.header__logo {
+    height: 40px;
+    object-fit:contain;
+}
+
+.header__icon{
+    /* generate space around an element's content, 
+    inside of any defined borders.*/
+    padding: 20px;
+}
