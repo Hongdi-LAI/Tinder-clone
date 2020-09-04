@@ -63,7 +63,6 @@ function TinderCards() {
                     {/* care about the bracket `` for `url(${person.url})` */}
                     {/* changing the css with java script with the style line*/}
                     <div 
-                    
                     style = {{ backgroundImage: `url(${person.url})`}}
                     className = "card"
                     >
