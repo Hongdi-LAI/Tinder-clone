@@ -14,7 +14,7 @@ Application has been deployed onto the url: https://tinder-clone-b6bc7.web.app/
 
 External packages used:
 
-      1. Material UI
-      2. React Router
-      3. react-tinder-card demo
-      4. Firebase
+      1. Material UI (User Interface Icons)
+      2. React Router (Mobile Page Change without Refreshing)
+      3. react-tinder-card demo (Card Swipe)
+      4. Firebase (Database setup and data pulling)
