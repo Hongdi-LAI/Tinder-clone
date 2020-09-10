@@ -14,26 +14,26 @@
 } 
 
 .swipeButtons__repeat{
-    padding:3vw !important;
+    padding: 2vw !important;
     color:#f5b748 !important;
 }
 
 .swipeButtons__left{
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #ec5e6f !important;
 }
 
 .swipeButtons__star{
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #62b4f9 !important;
 }
 
 .swipeButtons__right{
-    padding: 3vw !important;
+    padding: 2vw !important;
     color:#76e2b3 !important;
 }
 
 .swipeButtons__lightning{
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #915dd1 !important;
 }
