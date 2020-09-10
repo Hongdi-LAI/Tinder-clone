@@ -3,7 +3,7 @@
     justify-content: space-between;
     /* line after the header light grey */
     border-bottom: 1px solid #f9f9f9; 
-    /* align everything even with padding */
+    
 }
 
 .header__logo {

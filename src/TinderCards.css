@@ -3,7 +3,7 @@
     width: 400px;
     padding: 10px;
     max-width: 85vw;
-    height: 58vh; /* 50% of the view height */
+    height: 58vh; /* 58% of the view height */
     border-radius: 20px;
     background-size: cover;
     background-position: center;
@@ -27,6 +27,6 @@
 }
 
 .swipe{
-    /*absolute actually stacking the images together*/
+    /* 'absolute' actually stacking the images together*/
     position: absolute;
 }
