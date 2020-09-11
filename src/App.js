@@ -14,7 +14,7 @@ import ChatScreen from "./ChatScreen";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
      
      {/* Header */}
      {/* referencing the Header.js */}
