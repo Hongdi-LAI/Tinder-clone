@@ -11,7 +11,13 @@
     object-fit:contain;
 }
 
-.header__icon{
+.header__iconRight{
     padding: 1px !important;
+    margin-right: 40px;
+}
+
+.header__iconLeft{
+    padding: 1px !important;
+    margin-left: 40px;
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import Header from './Header';
 import {
@@ -13,6 +13,12 @@ import ChatScreen from "./ChatScreen";
 
 
 function App() {
+
+    // App Title
+    useEffect(() => {
+      document.title = "Tinder - Clone"
+    }, []);
+
   return (
     <div className="app">
      

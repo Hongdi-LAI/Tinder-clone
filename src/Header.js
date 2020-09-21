@@ -23,7 +23,7 @@ function Header({backButton}){
                 </IconButton>
             ):(
                 <IconButton>
-                    <PersonIcon className = "header__icon" fontSize = "large" />
+                    <PersonIcon className = "header__iconLeft" fontSize = "large" />
                 </IconButton>
             )}
 
@@ -37,7 +37,7 @@ function Header({backButton}){
             
             <Link to = "/chat">
                 <IconButton>
-                    <ChatBubbleIcon className = "header__icon" fontSize = "large" />
+                    <ChatBubbleIcon className = "header__iconRight" fontSize = "large" />
                 </IconButton>
             </Link>
         </div>
