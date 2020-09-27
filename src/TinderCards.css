@@ -1,32 +1,31 @@
-.card{
-    position: relative;
-    width: 400px;
-    padding: 10px;
-    max-width: 85vw;
-    height: 58vh; /* 58% of the view height */
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    /*subtle box shadow*/
-    box-shadow: 0px 18px 23px 10px rgba(0,0,0,0.2);
-    object-fit: contain;
-
+.card {
+  position: relative;
+  width: 400px;
+  padding: 10px;
+  max-width: 85vw;
+  height: 58vh; /* 58% of the view height */
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  /*subtle box shadow*/
+  box-shadow: 0px 18px 23px 10px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
 /* in class .card, go to the specific h3 tag*/
-.card > h3{
-    position: absolute;
-    bottom:10px;
-    color: peachpuff;
+.card > h3 {
+  position: absolute;
+  bottom: 10px;
+  color: peachpuff;
 }
 
-.tinderCards__cardContainer{
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh; 
+.tinderCards__cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
 }
 
-.swipe{
-    /* 'absolute' actually stacking the images together*/
-    position: absolute;
+.swipe {
+  /* 'absolute' actually stacking the images together*/
+  position: absolute;
 }

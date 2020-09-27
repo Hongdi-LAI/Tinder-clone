@@ -1,57 +1,53 @@
-.chatScreen__message{
-    /*putting the image right near the text*/
-    display: flex;
-    align-items: center;
-    padding: 20px;
-
+.chatScreen__message {
+  /*putting the image right near the text*/
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .chatScreen__text {
-    margin-left: 10px;
-    background-color: lightgrey;
-    padding: 15px;
-    border-radius: 20px;
+  margin-left: 10px;
+  background-color: lightgrey;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .chatScreen__textUser {
-    /* pushing it all the way to the left */
-    margin-left: auto;
-    background-color: #29b3cd;
-    color: white;
-    padding: 15px;
-    border-radius: 20px;
+  /* pushing it all the way to the left */
+  margin-left: auto;
+  background-color: #29b3cd;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .chatScreen__timestamp {
-    text-align: center;
-    color:gray;
-    padding: 20px;
+  text-align: center;
+  color: gray;
+  padding: 20px;
 }
 
 .chatScreen__input {
-    display: flex;
-    padding: 5px;
-    /*with position:fixed and bottom:0*/
-    /*dialogue box would stick to the bottom*/
-    position: fixed;
-    bottom: 0;
-    width: 100%; 
-    border-top: 1px solid lightgrey;
+  display: flex;
+  padding: 5px;
+  /*with position:fixed and bottom:0*/
+  /*dialogue box would stick to the bottom*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgrey;
 }
 
 .chatScreen__inputField {
-    flex: 1;
-    padding: 10px;
-    border: none;
-} 
-
-.chatScreen__inputButton {
-    border: none;
-    margin-right: 20px;
-    background-color: white;
-    font-weight: bolder;
-    color: red;
+  flex: 1;
+  padding: 10px;
+  border: none;
 }
 
-
-
+.chatScreen__inputButton {
+  border: none;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: red;
+}

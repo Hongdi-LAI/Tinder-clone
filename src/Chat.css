@@ -1,36 +1,35 @@
-.chat{
-    display: flex;
-    /* pull everything in the row to the center */
-    align-items: center;
-    justify-content: space-between;
-    /* 20px spacing in every direction*/
-    padding: 20px;
-    height: 70px;
-    border-bottom: 1px solid rgb(233, 231, 231);
-
+.chat {
+  display: flex;
+  /* pull everything in the row to the center */
+  align-items: center;
+  justify-content: space-between;
+  /* 20px spacing in every direction*/
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid rgb(233, 231, 231);
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-.chat__details{
-    /* give this container the most weight*/
-    /* push it as much as it can to the left*/
-    flex: 1;
+.chat__details {
+  /* give this container the most weight*/
+  /* push it as much as it can to the left*/
+  flex: 1;
 }
 
 /*targeting the message tag (have to be a direct child) inside the chat__detail*/
 .chat__details > p {
-    color: grey;
+  color: grey;
 }
 
-.chat__timestamp{
-    color:lightgrey;
+.chat__timestamp {
+  color: lightgrey;
 }
 
-.chat__image{
-    /* margin to the right for 20 px*/
-    margin-right: 20px;
+.chat__image {
+  /* margin to the right for 20 px*/
+  margin-right: 20px;
 }

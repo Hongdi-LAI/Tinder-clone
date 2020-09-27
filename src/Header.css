@@ -1,23 +1,21 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    /* line after the header light grey */
-    border-bottom: 1px solid #f9f9f9; 
-    
+  display: flex;
+  justify-content: space-between;
+  /* line after the header light grey */
+  border-bottom: 1px solid #f9f9f9;
 }
 
 .header__logo {
-    height: 55px;
-    object-fit:contain;
+  height: 55px;
+  object-fit: contain;
 }
 
-.header__iconRight{
-    padding: 1px !important;
-    margin-right: 40px;
+.header__iconRight {
+  padding: 1px !important;
+  margin-right: 40px;
 }
 
-.header__iconLeft{
-    padding: 1px !important;
-    margin-left: 40px;
+.header__iconLeft {
+  padding: 1px !important;
+  margin-left: 40px;
 }
-
